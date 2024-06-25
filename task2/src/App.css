@@ -1,0 +1,70 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.timer{
+  display: flex;
+  justify-content: center;
+  font-size: 64px;
+  font-weight: 500;
+  color: black;
+}
+
+.renders{
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  display: flex;
+  justify-content: center;
+
+}
+
+.play,
+.pause,
+.reset
+{
+  width: 160px;
+  height: 36px;
+  border-radius: 8px;
+  padding: 12px 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: none;
+  color: white;
+  gap: 5px;
+}
+
+.play{
+  background-color: #00AE1c;
+}
+
+.pause{
+  background-color: #099AC8;
+}
+
+.reset{
+  background-color: #EF9919;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 20px;
+}
+
+img{
+  width: 16px;
+  height: 16px;
+  z-index: 1;
+}
